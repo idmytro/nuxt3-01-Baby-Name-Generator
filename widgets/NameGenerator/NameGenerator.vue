@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import { NameCard } from '@/entities/NameCard';
-import { NameGeneratorOption } from '@/entities/NameGeneratorOption';
+import NameCard from './NameCard.vue';
+import NameGeneratorOption from './NameGeneratorOption.vue';
 
 import {
   Gender,
