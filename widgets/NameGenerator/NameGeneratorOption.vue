@@ -50,7 +50,6 @@ function handleChange(value: OptionValue): void {
         type="button"
         class="option"
         :class="computeButtonClasses(value, index)"
-        data-click="options[option.category] = value"
         @click="handleChange(value)"
       >
         {{ value }}
